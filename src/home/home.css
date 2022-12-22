@@ -1,0 +1,30 @@
+.homeWrap{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.homeWrap1{
+    width: 30%;
+    height: 900px;
+}
+.homeWrap2 {
+    background-color:blue;
+    width: 30%;
+    height: 900px;
+}
+.homeWrap3 {
+    background-color: chocolate;
+    width: 40%;
+    height: 900px;
+}
+/* -----wrapTop1-------- */
+.wrapTop1{
+    background-color: darkblue;
+    width: 100%;
+    height: 600px;
+}
+.wrapbottom1{
+    background-color: darkcyan;
+    width: 100%;
+    height: 300px;
+}
