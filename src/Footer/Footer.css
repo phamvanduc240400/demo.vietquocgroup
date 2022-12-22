@@ -2,4 +2,20 @@
     background-color: #000;
     width: 100%;
     height: 300px;
+    justify-content: center;
+    display: flex;
+}
+.wrap_img_ft{
+    width: 65%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.img_ft1{
+    width: 40%;
+    height: 100%;
+}
+.img_ft2 {
+    width: 30%;
+    height: 100%;
 }
