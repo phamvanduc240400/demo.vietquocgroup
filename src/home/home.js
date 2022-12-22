@@ -61,10 +61,14 @@ export default class HomeWrap extends Component {
         <div className='vid_nl'>
           <div className='wrap_yout'>
             <div className='yout1'>
-            
+            <video style={{width:'100%', height:'100%'}} controls><source src='../video/video2.webm' type='video/mp4'></source></video>
             </div>
-            <div className='yout2'></div>
-            <div className='yout3'></div>
+            <div className='yout2'>
+              <video style={{width:'100%', height:'100%'}} controls><source src='../video/video3.webm' type='video/mp4'></source></video>
+            </div>
+            <div className='yout3'>
+              <video style={{width:'100%', height:'100%'}} controls><source src='../video/video4.webm' type='video/mp4'></source></video>
+            </div>
           </div>
         </div>
         <div style={outstand}>Gia đình VIỆT QUỐC GROUP và đối tác chiến lược</div>
