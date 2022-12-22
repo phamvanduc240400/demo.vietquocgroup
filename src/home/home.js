@@ -10,6 +10,14 @@ export default class HomeWrap extends Component {
     fontSize: '33px',
     fontWeight: '600',
     }
+    let footcontract={
+      backgroundColor: '#000000',
+      height:'80px',
+      display:'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderBottom: '0.5px solid #fff'
+    }
     return (
       <div>
         <div style={outstand}>Công trình tiêu biểu</div>
@@ -52,9 +60,35 @@ export default class HomeWrap extends Component {
         <div style={outstand}>Năng lực VIỆT QUỐC GROUP</div>
         <div className='vid_nl'>
           <div className='wrap_yout'>
-            <div className='yout1'></div>
+            <div className='yout1'>
+            
+            </div>
             <div className='yout2'></div>
             <div className='yout3'></div>
+          </div>
+        </div>
+        <div style={outstand}>Gia đình VIỆT QUỐC GROUP và đối tác chiến lược</div>
+        <div className='partner'>
+          <div className='wrap_pn'>
+            <img src='../partner/pn1.png' alt=''></img>
+            <img src='../partner/pn3.png' alt=''></img>
+            <img src='../partner/pn2.png' alt=''></img>
+            
+          </div>
+        </div>
+        <div style={footcontract}>
+          <div className='wrap_ft'>
+            <div className='logo_ft'>
+              <img style={{width:'70px', height:'70px'}} src='../logo/logoviva.png' alt=''></img>
+            </div>
+            <div className='logo_so'>
+              <div className='icon1'>
+                <img style={{width:'100%',height:'100%'}} src='../icon/icon1.png' alt=''></img>
+              </div>
+              <div className='icon2'>
+                <img style={{width:'100%',height:'100%'}} src='../icon/icon3.jpg' alt=''></img>
+              </div>
+            </div>
           </div>
         </div>
       </div>
