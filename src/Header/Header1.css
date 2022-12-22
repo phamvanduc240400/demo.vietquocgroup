@@ -93,6 +93,7 @@
 }
 .menu2 li:hover .sub_menu{
     display: block;
+
 }
 .menu2 li a{
     position: relative;
@@ -110,4 +111,17 @@
 }
 .menu2 li:hover .sub_menu2 {
     display: block;
+}
+.sub_menu2 img:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.sub_menu img:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+/* -------last header-------*/
+.header_last ul li a:hover{
+    color: #e45b00;
+    font-weight: 700;
 }
