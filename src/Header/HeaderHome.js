@@ -14,7 +14,25 @@ export default class HeaderHome extends Component {
                   </div>
                   <div className='menu'>
                     <ul className='menu2'>
-                      <li><a href='@'>VỀ VIỆT QUỐC</a>                   
+                      <li><a href='@'>VỀ VIỆT QUỐC</a>
+                      <ul className='sub_menu0'>
+                          <li style={{padding: '9% 20%' , color:'#fff'}}>
+                            <ul style={{display:'flex', justifyContent:'space-evenly', marginTop:'15px'}}>
+                              <li style={{ width:'300px', height:'200px', textAlign:'center', padding:'0px'}}>
+                                 <img style={{width:'100%', height:'100%'}} src='../img/header2.jpg' alt=''></img>
+                                Nói về chúng tôi
+                              </li>
+                             <li style={{ width:'300px', height:'200px', textAlign:'center', padding:'0px'}}>
+                                 <img style={{width:'100%', height:'100%'}} src='../img/header5.jpg' alt=''></img>
+                                Tầm nhìn - Sứ mệnh
+                              </li>
+                              <li style={{ width:'300px', height:'200px', textAlign:'center', padding:'0px'}}>
+                                 <img style={{width:'100%', height:'100%'}} src='../img/header1.jpg' alt=''></img>
+                                Năng lực VIET QUOC GROUP
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>                   
                       </li>
                       <li><a href='@'>LĨNH VỰC HOẠT ĐỘNG</a>
                        <ul className='sub_menu'>
