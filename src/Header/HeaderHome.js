@@ -1,6 +1,14 @@
 
 import React, { Component } from 'react'
 import './Header1.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+  NavLink
+} from "react-router-dom";
 export default class HeaderHome extends Component {
   render(){ 
 
@@ -34,7 +42,7 @@ export default class HeaderHome extends Component {
                           </li>
                         </ul>                   
                       </li>
-                      <li><a href='@'>LĨNH VỰC HOẠT ĐỘNG</a>
+                     <li><a href='@'>LĨNH VỰC HOẠT ĐỘNG</a>
                        <ul className='sub_menu'>
                           <li style={{padding: '9% 20%' , color:'#fff'}}>
                             <ul style={{display:'flex', justifyContent:'space-evenly', marginTop:'15px'}}>
@@ -54,7 +62,7 @@ export default class HeaderHome extends Component {
                           </li>
                         </ul>
                       </li>
-                      <li><a href='@'>DỰ ÁN</a>
+                      <li><a href='du-an'>DỰ ÁN</a>
                       <ul className='sub_menu2'>
                           <li style={{padding: '9% 20%' , color:'#fff'}}>
                             <ul style={{display:'flex', justifyContent:'space-evenly', marginTop:'15px'}}>
@@ -74,8 +82,8 @@ export default class HeaderHome extends Component {
                           </li>
                         </ul>
                       </li>
-                      <li><a href='@'>TIN TỨC</a></li>
-                      <li><a href='@'>LIÊN HỆ</a></li>
+                      <li><a href='tin-tuc'>TIN TỨC</a></li>
+                      <li><a href='lien-he'>LIÊN HỆ</a></li>
                     </ul>
                 </div>
             </div>

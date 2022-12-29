@@ -1,0 +1,41 @@
+.Wrap_lienhe{
+    background-color: #000;
+    width:100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lien_he{
+
+    width: 70%;
+    height: 90%;
+    display: flex;
+}
+.img_lienhe{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+.content_lienhe{
+    width: 50%;
+    height: 100%;
+}
+.map{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.map p{
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border: 2px solid #0014ff;
+    font-size: 30px;
+    border-radius: 70%;
+    padding: 30px;
+}
+.map p:hover{
+    color: red;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}

@@ -80,7 +80,7 @@ export default class HomeWrap extends Component {
             
           </div>
         </div>
-        <div style={footcontract}>
+        {/* <div style={footcontract}>
           <div className='wrap_ft'>
             <div className='logo_ft'>
               <img style={{width:'70px', height:'70px'}} src='../logo/logoviva.png' alt=''></img>
@@ -94,7 +94,7 @@ export default class HomeWrap extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
        
     )
