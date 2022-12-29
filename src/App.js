@@ -6,6 +6,7 @@ import HomeWrap from './home/home';
 import Duan from './menu2/Duan';
 import Tintuc from './Tintuc/Tintuc';
 import Lienhe from './Lienhe/Lienhe';
+import Details from './chitiet/details';
 import {
   BrowserRouter,
   Routes,
@@ -23,7 +24,8 @@ function App() {
           <Route  path="/tin-tuc" element={<Tintuc/>}/>
           <Route  path="/lien-he" element={<Lienhe/>}/>
           <Route  path="/du-an" element={<Duan/>}/>
-    </Routes>
+          <Route  path="/detail" element={<Details/>}/>
+        </Routes>
         <FooterHome></FooterHome>
     </div>
     
