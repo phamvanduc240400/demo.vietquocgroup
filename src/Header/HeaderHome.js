@@ -18,7 +18,7 @@ export default class HeaderHome extends Component {
           <div className='slide_bg'>
               <div className='header2'>
                   <div className='logo'>
-                    <img src='../logo/logoviva.png' alt=''/>
+                    <a href='/'><img src='../logo/logoviva.png' alt=''/></a>
                   </div>
                   <div className='menu'>
                     <ul className='menu2'>
