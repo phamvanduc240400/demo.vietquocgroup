@@ -34,9 +34,9 @@ export default class FooterHome extends Component {
             <div className='img_ft1'>
                 {/* <img style={{width:'100%', height:'100%'}} src='../img/Capture1.JPG' alt=''></img> */}
                 <h2>VIET QUOC GROUP</h2>
-                <p>283/28-26 CMT8, Phường 12, Quận 10, TP HCM</p>
-                <p>200000000. 30000000</p>
-                <p>vietquocgroup@gmail.com</p>
+                <p>Địa chỉ: 283/28-26 CMT8, Phường 12, Quận 10, TP HCM</p>
+                <p>Hotline: 200000000. 30000000</p>
+                <p>Email: vietquocgroup@gmail.com</p>
             </div>
             <div className='img_ft2'>
                 {/* <img style={{width:'100%', height:'100%'}} src='../img/Capture2.JPG' alt=''></img> */}
