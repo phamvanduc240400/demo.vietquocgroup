@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './home.css'
+import HeaderHome from '../Header/HeaderHome'
 export default class HomeWrap extends Component {
   render() {
     let outstand = {
@@ -12,6 +13,8 @@ export default class HomeWrap extends Component {
     }
     
     return (
+      <>
+      <HeaderHome></HeaderHome>
       <div>
         <div style={outstand}>Công trình tiêu biểu</div>
         <div className='homeWrap'>
@@ -73,23 +76,8 @@ export default class HomeWrap extends Component {
             
           </div>
         </div>
-        {/* <div style={footcontract}>
-          <div className='wrap_ft'>
-            <div className='logo_ft'>
-              <img style={{width:'70px', height:'70px'}} src='../logo/logoviva.png' alt=''></img>
-            </div>
-            <div className='logo_so'>
-              <div className='icon1'>
-                <img style={{width:'100%',height:'100%'}} src='../icon/icon1.png' alt=''></img>
-              </div>
-              <div className='icon2'>
-                <img style={{width:'100%',height:'100%'}} src='../icon/icon3.jpg' alt=''></img>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
-       
+       </>
     )
   }
 }

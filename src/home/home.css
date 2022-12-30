@@ -229,8 +229,14 @@
 .icon1{
     width: 45%;
     height: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .icon2 {
     width: 45%;
     height: 90%;
+    align-items: center;
+    justify-content: center;
+     display: flex;
 }

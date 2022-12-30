@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import './Tintuc.css'
+import HeaderHome from '../Header/HeaderHome'
 
 export default class Tintuc extends Component {
   render() {
     return (
+    <>
+    <HeaderHome></HeaderHome>
       <div className='wrap_tintuc'>
         <div className='Tintuc1'>  
             <div className='img_tintuc1'>
@@ -60,6 +63,7 @@ export default class Tintuc extends Component {
             </div>
         </div>
       </div>
+      </>
     )
   }
 }

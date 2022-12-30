@@ -16,7 +16,7 @@ export default class FooterHome extends Component {
         <div style={footcontract}>
           <div className='wrap_ft'>
             <div className='logo_ft'>
-              <img style={{width:'70px', height:'70px'}} src='../logo/logoviva.png' alt=''></img>
+              <a href='/'><img style={{width:'70px', height:'70px'}} src='../logo/logo VQ2.png' alt=''></img></a>
             </div>
             <div className='logo_so'>
               <div className='icon1'>
@@ -32,14 +32,14 @@ export default class FooterHome extends Component {
       
         <div className='wrap_img_ft'>
             <div className='img_ft1'>
-                {/* <img style={{width:'100%', height:'100%'}} src='../img/Capture1.JPG' alt=''></img> */}
+                
                 <h2>VIET QUOC GROUP</h2>
                 <p>Địa chỉ: 283/28-26 CMT8, Phường 12, Quận 10, TP HCM</p>
                 <p>Hotline: 200000000. 30000000</p>
                 <p>Email: vietquocgroup@gmail.com</p>
             </div>
             <div className='img_ft2'>
-                {/* <img style={{width:'100%', height:'100%'}} src='../img/Capture2.JPG' alt=''></img> */}
+                
                 <h3>LĨNH VỰC HOẠT ĐỘNG</h3>
                 <p>Xây dựng công trình</p>
                 <p>Kiến trúc & nội thất</p>

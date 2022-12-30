@@ -18,7 +18,7 @@ function App() {
   return (
   <BrowserRouter>
     <div className="App">
-        <HeaderHome></HeaderHome>
+        {/* <HeaderHome></HeaderHome> */}
         <Routes>
           <Route exact path="/" element={<HomeWrap/>}/>
           <Route  path="/tin-tuc" element={<Tintuc/>}/>
@@ -26,6 +26,7 @@ function App() {
           <Route  path="/du-an" element={<Duan/>}/>
           <Route  path="/detail" element={<Details/>}/>
         </Routes>
+        
         <FooterHome></FooterHome>
     </div>
     

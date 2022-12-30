@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import './Duan.css'
+import HeaderHome from '../Header/HeaderHome'
 export default class Duan extends Component {
   render() {
     return (
+      <> 
+      <HeaderHome></HeaderHome>
       <div>
         <div className='homeWrap'>
           <div className='homeWrap1'>
@@ -77,6 +80,8 @@ export default class Duan extends Component {
           </div>
         </div>
       </div>
+      </>
+
     )
   }
 }

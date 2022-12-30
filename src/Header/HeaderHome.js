@@ -18,11 +18,11 @@ export default class HeaderHome extends Component {
           <div className='slide_bg'>
               <div className='header2'>
                   <div className='logo'>
-                    <a href='/'><img src='../logo/logoviva.png' alt=''/></a>
+                    <a href='/'><img src='../logo/logo VQ.png' alt=''/></a>
                   </div>
                   <div className='menu'>
                     <ul className='menu2'>
-                      <li><a href='@'>VỀ VIỆT QUỐC</a>
+                      <li><a href='/'>VỀ VIỆT QUỐC</a>
                       <ul className='sub_menu0'>
                           <li style={{padding: '9% 20%' , color:'#fff'}}>
                             <ul style={{display:'flex', justifyContent:'space-evenly', marginTop:'15px'}}>
@@ -42,7 +42,7 @@ export default class HeaderHome extends Component {
                           </li>
                         </ul>                   
                       </li>
-                     <li><a href='@'>LĨNH VỰC HOẠT ĐỘNG</a>
+                     <li><a href='/'>LĨNH VỰC HOẠT ĐỘNG</a>
                        <ul className='sub_menu'>
                           <li style={{padding: '9% 20%' , color:'#fff'}}>
                             <ul style={{display:'flex', justifyContent:'space-evenly', marginTop:'15px'}}>
