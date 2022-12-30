@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 import './details.css'
-
+import HeaderHome from '../Header/HeaderHome'
 
 export default class Details extends Component {
   render() {
@@ -31,7 +31,8 @@ export default class Details extends Component {
     //         wrap_light.style.display='block';
     //     };
     return (
-        <>     
+        <>
+        <HeaderHome></HeaderHome> 
          <div className='wrap_detail'>
         <div className='detail'>
             <div className='detail_top'>
