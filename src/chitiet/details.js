@@ -1,9 +1,38 @@
+
 import React, { Component } from 'react'
 import './details.css'
+
+
 export default class Details extends Component {
   render() {
+    let light={
+        display:'none',
+    }
+    let lightbox={
+        width:'100vw',
+        height:'100vh',
+        backgroundColor:'#000',
+        opacity:'0.7',
+        position:'fixed',
+        top:'0',
+        left:'0',
+        zIndex:'10'
+    }
+    let img_lightbox = {
+        position:'fixed',
+        width:'70%',
+        left:'15%',
+        zIndex:'15',
+        top:'10%'
+    }
+    // var maning = document.getElementsByClassName('.img_gallery_top>img')[0];
+    //     maning.onclick= function(){
+    //         var wrap_light = document.getElementsByClassName('.wrap_light')[0];
+    //         wrap_light.style.display='block';
+    //     };
     return (
-      <div className='wrap_detail'>
+        <>     
+         <div className='wrap_detail'>
         <div className='detail'>
             <div className='detail_top'>
                 <div className='detail_top_left'>
@@ -80,9 +109,14 @@ export default class Details extends Component {
                         ra chính mình trong thế giới mà họ chiếm giữ.</p>
                 </div>
             </div>
-
         </div>
       </div>
+      <div className='wrap_light' style={light}>
+        <div style={lightbox}></div>
+        <img style={img_lightbox} src='../Tintuc/tintuc1.jpg' alt=''></img>
+      </div>
+      </>
+
     )
   }
 }
