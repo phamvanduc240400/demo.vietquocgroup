@@ -79,20 +79,21 @@
     justify-content: space-around;
 }
 .header_last ul li:hover {
-    color: #e45b00;
+    color:#000;
 }
 /* --------sub menu0 */
 .sub_menu0{
-    background-color: #3e3e3e;
+    background-color:#3e3e3e;
     position: absolute;
     width: 105%;
     height: 420px;
-    margin: -6% 0 0 -42.7%;
+    margin: -6% 0 0 -38.7%;
     z-index: 5;
     display: none;
 }
 .menu2 li:hover .sub_menu0 {
     display: block;
+    
 
 }
 .sub_menu0 img:hover{
@@ -105,7 +106,7 @@
     position: absolute;
     width: 105%;
     height: 420px;
-    margin: -6% 0 0 -51.7%;
+    margin: -6% 0 0 -47.7%;
     z-index: 5;
     display: none;
 }
@@ -123,7 +124,7 @@
     position: absolute;
     width: 103%;
     height: 420px;
-    margin: -6% 0 0 -63.9%;
+    margin: -6% 0 0 -60.9%;
     z-index: 5;
     display: none;
 }

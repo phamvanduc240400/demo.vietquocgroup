@@ -20,10 +20,10 @@ export default class FooterHome extends Component {
             </div>
             <div className='logo_so'>
               <div className='icon1'>
-                <img style={{width:'100%',height:'100%'}} src='../icon/icon1.png' alt=''></img>
+                <img style={{width:'75%',height:'75%'}} src='../icon/icon1.png' alt=''></img>
               </div>
               <div className='icon2'>
-                <img style={{width:'100%',height:'100%'}} src='../icon/icon3.jpg' alt=''></img>
+                <img style={{width:'75%',height:'75%'}} src='../icon/icon3.jpg' alt=''></img>
               </div>
             </div>
           </div>
@@ -32,10 +32,18 @@ export default class FooterHome extends Component {
       
         <div className='wrap_img_ft'>
             <div className='img_ft1'>
-                <img style={{width:'100%', height:'100%'}} src='../img/Capture1.JPG' alt=''></img>
+                {/* <img style={{width:'100%', height:'100%'}} src='../img/Capture1.JPG' alt=''></img> */}
+                <h2>VIET QUOC GROUP</h2>
+                <p>283/28-26 CMT8, Phường 12, Quận 10, TP HCM</p>
+                <p>200000000. 30000000</p>
+                <p>vietquocgroup@gmail.com</p>
             </div>
             <div className='img_ft2'>
-                <img style={{width:'100%', height:'100%'}} src='../img/Capture2.JPG' alt=''></img>
+                {/* <img style={{width:'100%', height:'100%'}} src='../img/Capture2.JPG' alt=''></img> */}
+                <h3>LĨNH VỰC HOẠT ĐỘNG</h3>
+                <p>Xây dựng công trình</p>
+                <p>Kiến trúc & nội thất</p>
+                <p>Đầu tư & thương mại</p>
             </div>
         </div>
       </div>
